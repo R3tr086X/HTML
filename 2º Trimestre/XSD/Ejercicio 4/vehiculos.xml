@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<vehiculos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="vehiculos.xsd">
+   <vehiculo>
+      <marca>volkswagenn</marca>
+      <modelo>golf</modelo>
+      <color>rojo</color>
+      <fechamatricula>2012-10-05</fechamatricula>
+      <matricula>JKM-2817</matricula>
+   </vehiculo>
+   <vehiculo>
+      <marca>seat</marca>
+      <modelo>leon</modelo>
+      <color>azul</color>
+      <fechamatricula>2008-11-19</fechamatricula>
+      <matricula>HAJ-8397</matricula>
+   </vehiculo>
+</vehiculos>

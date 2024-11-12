@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="historia">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="continente" type="continenteType" minOccurs="1" maxOccurs="unbounded"/>
+        <xs:element name="ejemplo_cdata" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+    <xs:complexType name="continente">
+      <xs:sequence>
+        <xs:choice>
+         <xs:element name="superficie">
+           <xs:complexType>
+              <xs:attribute name="actual" type="xs:string"/>
+            </xs:complexType>
+          </xs:element>
+           <xs:element name="poblacion">
+             <xs:complexType>
+                <xs:attribute name="actual" type="xs:string"/>
+             </xs:complexType>
+            </xs:element>
+        </xs:choice>
+        <xs:element name="pais" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  
+  <xs:complexType name="pais">
+    <xs:sequence>
+      <xs:element name="superficie" type="xs:string"/>
+      <xs:element name="informacion" type="xs:string"/>
+    </xs:sequence>
+        <xs:attribute name="localizacion" type="localizacionType"/>
+  </xs:complexType>
+  
+  <xs:complexType name="informacion">
+    <xs:sequence>
+      <xs:element name="nombre" type="nombreType"/>
+      <xs:element name="formacion" type="formacionType"/>
+      <xs:element name="hecho" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="imperio" type="imperioType"/>
+      <xs:element name="sistema_gobierno_actual" type="xs:string"/>
+      <xs:element name="moneda" type="xs:string" minOccurs="0" maxOccurs="1"/>
+    </xs:sequence>  
+  </xs:complexType>
+  
+  <xs:complexType name="continenteType">
+    <xs:sequence>
+        <xs:attribute name="valor" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+   <xs:simpleType name="localizacionType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Norte"/>
+      <xs:enumeration value="Sur"/>
+      <xs:enumeration value="Este"/>
+      <xs:enumeration value="Oeste"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="imperioType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="SI"/>
+      <xs:enumeration value="No"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+   <xs:complexType name="nombreType">
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="codigo">
+            <xs:simpleType>
+              <xs:restriction base="xs:string">
+                <xs:pattern value="[a-zA-Z]{2}[1-9][0-9]"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+    
+    <xs:complexType type="añoType">
+      <xs:attribute name="año">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9]{4}(aC|dC)"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  
+</xs:schema>

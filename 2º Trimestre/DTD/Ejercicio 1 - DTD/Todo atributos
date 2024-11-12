@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE liga [
+   <!ELEMENT liga (partido*)>
+  <!ELEMENT partido EMPTY>
+  <!ATTLIST partido
+        goles-local CDATA #REQUIRED
+        goles-visitante CDATA #REQUIRED
+        visitante CDATA #REQUIRED
+        local CDATA #REQUIRED
+        fecha CDATA #REQUIRED
+    >
+]>
+<liga>
+<partido goles-local="0" goles-visitante="1" visitante="inter de miitente" local="nottingham presa" fecha="12/02/2024" />
+
+  
+<partido goles-local="3" goles-visitante="3" visitante="sparta da risa" local="vodka juniors" fecha="01/04/2024" />
+
+
+<partido goles-local="4" goles-visitante="2" visitante="esteaua es del grifo" local="water de munich" fecha="23/05/2024"/>
+
+
+<partido goles-local="4" goles-visitante="1" visitante="shaktar de donetsk" local="atlético de madrid" fecha="18/06/2024" />
+
+</liga>

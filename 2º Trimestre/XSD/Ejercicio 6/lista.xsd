@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="listaclientes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="cliente" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cif" type="cifType"/>
+              <xs:element name="nombre" type="xs:string"/>
+              <xs:element name="diasentrega" type="xs:unsignedInt" minOccurs="0"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+    <xs:simpleType name="cifType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]{7}[0-9A-Z]"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<inventario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="inventario.xsd">
+    <mueble>
+        <mesa>
+            <peso>4.55</peso>
+            <superficie unidad="cm2">100</superficie>
+        </mesa>
+    </mueble>
+    <mueble>
+        <silla>
+            <peso>3.50</peso>
+        </silla>
+    </mueble>
+</inventario>

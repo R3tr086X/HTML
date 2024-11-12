@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE historia SYSTEM "dtd_validación.dtd">
+<?xml-stylesheet type="text/css" href="CSS_Historia.css"?>
+<historia>
+    <continente valor="&quot;Europa&quot;">
+      <pais localizacion="Occidente">
+        <superficie actual="505,990 km²"/>
+        <informacion>
+                <nombre codigo="eu33">España</nombre>
+                <formacion año="1492dC"/>
+                <hecho>Final de la Reconquista</hecho>
+                <hecho>Unión dinástica de las coronas de Castilla y Aragón</hecho>
+                <imperio tuvo="SI"/>
+                <sistema_gobierno_actual>Monarquía parlamentaria</sistema_gobierno_actual>
+                <moneda>Euro (€)</moneda>
+        </informacion>
+      </pais>
+      
+      <pais localizacion="Sur">
+        <poblacion actual="60,317,116"/>
+          <informacion>
+                  <nombre codigo="eu45">Italia</nombre>
+                  <formacion año="1861dC"/>
+                  <hecho>Unificación nacional Italiana</hecho>
+                  <imperio tuvo="SI"/>
+                  <sistema_gobierno_actual>República parlamentaria</sistema_gobierno_actual>
+                  <moneda>Euro (€)</moneda>
+          </informacion>
+      </pais>
+    </continente>
+    
+    <continente valor="&quot;Africa&quot;">
+      <pais localizacion="Norte">
+        <superficie actual="1,010,407 km²"/>
+        <informacion>
+                <nombre codigo="af64">Egipto</nombre>
+                <formacion año="3200aC"/>
+                <hecho>Unificación de ciuades del Nilo</hecho>
+                <imperio tuvo="SI"/>
+                <sistema_gobierno_actual>República semipresidencialista</sistema_gobierno_actual>
+                <moneda>Libra egipcia (EGP)</moneda>
+        </informacion>
+      </pais>
+    </continente>
+    
+    <continente valor="&quot;America&quot;">
+      <pais localizacion="Sur">
+        <poblacion actual="19,458,310"/>
+        <informacion>
+                <nombre codigo="am54">Chile</nombre>
+                <formacion año="1818dC"/>
+                <hecho>Independencia de España</hecho>
+                <imperio tuvo="NO"/>
+                <sistema_gobierno_actual>República presidencialista</sistema_gobierno_actual>
+        </informacion>
+      </pais>
+    </continente>
+    
+    <continente valor="&quot;Asia&quot;">
+      <pais localizacion="Oriente">
+        <superficie actual="377,975 km²"/>
+        <informacion>
+                <nombre codigo="as66">Japón</nombre>
+                <formacion año="1868dC"/>
+                <hecho>Restauración Meiji</hecho>
+                <imperio tuvo="SI"/>
+                <sistema_gobierno_actual>Monarquía constitucional</sistema_gobierno_actual>
+                <moneda>Yen (¥)</moneda>
+        </informacion>
+      </pais>
+    </continente>
+    
+    
+    <ejemplo_cdata>
+    <![CDATA[
+        <p>Información HTML en un documento XML</p>
+        <ul>
+            <li>Elemento de lista 1</li>
+            <li>Elemento de lista 2</li>
+            <li>Elemento de lista 3</li>
+        </ul>
+    ]]>
+    </ejemplo_cdata>
+</historia>

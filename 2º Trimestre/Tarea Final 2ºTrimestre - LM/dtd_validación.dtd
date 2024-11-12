@@ -1,0 +1,36 @@
+<!ELEMENT historia (continente+, ejemplo_cdata)>
+<!ELEMENT continente (pais*)>
+<!ELEMENT pais (( superficie | poblacion ), informacion )>
+<!ELEMENT informacion (nombre, formacion, hecho*, imperio, sistema_gobierno_actual, moneda?)>
+
+<!ELEMENT ejemplo_cdata (#PCDATA)>
+<!ELEMENT superficie EMPTY>
+<!ELEMENT poblacion EMPTY>
+<!ELEMENT hecho ANY>
+<!ELEMENT imperio EMPTY>
+<!ELEMENT sistema_gobierno_actual (#PCDATA)>
+<!ELEMENT formacion EMPTY>
+<!ELEMENT moneda (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT id EMPTY>
+
+<!ATTLIST continente
+valor CDATA #REQUIRED>
+
+<!ATTLIST imperio
+tuvo ( NO | SI ) "NO" >
+
+<!ATTLIST pais
+localizacion ( Norte | Sur | Occidente | Oriente ) "Norte" >
+
+<!ATTLIST superficie
+actual CDATA #IMPLIED>
+
+<!ATTLIST poblacion
+actual CDATA #IMPLIED>
+
+<!ATTLIST formacion
+año CDATA #REQUIRED>
+
+<!ATTLIST nombre
+codigo ID #REQUIRED>

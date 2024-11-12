@@ -1,0 +1,49 @@
+historia {
+    display: block;
+    margin: 20px;
+  }
+  
+  continente {
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  continente > pais > nombre {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  continente > pais > nombre > hecho {
+    font-style: italic;
+  }
+  
+  continente > pais > nombre > * {
+    display: block;
+    margin-left: 20px;
+  }
+  
+  continente[pais]::before, continente[nombre]::before, pais[localizacion]::before, superficie[actual]::before, poblacion[actual]::before, formacion[año]::before, hecho::before, imperio::before, sistema_gobierno_actual::before, moneda::before {
+    content: attr(nombre);
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  ejemplo_cdata {
+    display: block;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  ejemplo_cdata p {
+    font-weight: bold;
+  }
+  
+  ejemplo_cdata ul {
+    list-style-type: square;
+  }
+  
+  ejemplo_cdata li {
+    font-style: italic;
+  }

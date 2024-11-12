@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listaventas[
+ <!ELEMENT listaventas (venta)>
+  <!ELEMENT venta (importe, comprador, vendedor, fecha?, código_factura)>
+ <!ELEMENT importe (#PCDATA)>
+ <!ELEMENT comprador (#PCDATA)>
+ <!ELEMENT vendedor (#PCDATA)>
+ <!ELEMENT fecha (#PCDATA)>
+ <!ELEMENT código_factura (#PCDATA)>
+]>
+<listaventas>
+  <venta>
+  <importe></importe>
+  <comprador></comprador>
+  <vendedor></vendedor>
+  <fecha></fecha>
+  <código_factura></código_factura>
+  </venta>
+</listaventas>

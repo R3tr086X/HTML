@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="inventario">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="mueble" type="muebleType" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:complexType name="muebleType">
+    <xs:sequence>
+      <xs:choice>
+        <xs:element name="mesa" type="mesaType"/>
+        <xs:element name="silla" type="sillaType"/>
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
+  
+<xs:complexType name="mesaType">
+  <xs:sequence>
+    <xs:element name="peso" type="pesoType"/>
+    <xs:element name="superficie">
+      <xs:complexType>
+        <xs:simpleContent>
+          <xs:extension base="xs:string">
+            <xs:attribute name="unidad" type="unidadType"/>
+          </xs:extension>
+        </xs:simpleContent>
+      </xs:complexType>
+    </xs:element>
+  </xs:sequence>
+</xs:complexType>
+
+  
+  <xs:complexType name="sillaType">
+    <xs:sequence>
+      <xs:choice>
+        <xs:element name="peso" type="pesoType"/>
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:simpleType name="pesoType">
+   <xs:restriction base="xs:decimal">
+            <xs:fractionDigits value="2"/>
+   </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="unidadType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="cm2"/>
+      <xs:enumeration value="m2"/>
+    </xs:restriction>
+  </xs:simpleType>
+  </xs:schema>

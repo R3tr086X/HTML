@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cartelera>
+    <pelicula>
+        <titulo>AQUELLAS JUERGAS UNIVERSITARIAS</titulo>
+        <titulo_original>Old School</titulo_original>
+        <pais>EE UU</pais>
+        <año>2003</año>
+        <duracion>93 min</duracion>
+        <director>Todd Phillips</director>
+        <interpretes>
+            <interprete>Will Ferrell</interprete>
+            <interprete>Luke Wilson</interprete>
+            <interprete>Vince Vaughn</interprete>
+            <interprete>Jeremy Piven</interprete>
+            <interprete>Juliette Lewis</interprete>
+            <interprete>Sean William Scott</interprete>
+        </interpretes>
+        <sinopsis>Mitch, Frank y Beanie son tres amigos treintañeros cuyas vidas no son exactamente lo que esperaban. Mitch tiene una novia ninfómana que se mete en la cama con el primero que agarra. Frank se ha casado y su matrimonio nada tiene que ver con las juergas salvajes que organizaban años atrás. Y Beanie es un padre de familia que se muere por recuperar su alocada juventud. Pero las cosas cambian cuando Beanie sugiere que creen su propia fraternidad, en la nueva casa que Mitch tiene junto al campus de la universidad. Una ocasión para revivir tiempos gloriosos, hacer nuevos amigos y de volver a sus viejas, salvajes y desmadradas juergas de estudiantes.</sinopsis>
+        <web>http://www.oldschool-themovie.com/</web>
+        <clasificacion>+16</clasificacion>
+        <fichero_grafico>
+          <a href="https://m.media-amazon.com/images/S/pv-target-images/82a3aad9bb25249ae14fe7eb17fe35c1cbf89b4c8ed218228823cd34159fa9a6.jpg">Ver cartel</a>
+        </fichero_grafico>
+    </pelicula>
+    
+    
+    <pelicula>
+        <titulo>Regreso al futuro</titulo>
+        <titulo_original>Back to the future</titulo_original>
+        <pais>Estados Unidos</pais>
+        <año>1985</año>
+        <duracion>116 min</duracion>
+        <director>Robert Zemeckis</director>
+        <interpretes>
+            <interprete>Michael J. Fox</interprete>
+            <interprete>Christopher Lloyd</interprete>
+            <interprete>Lea Thompson</interprete>
+            <interprete>Crispin Glover</interprete>
+        </interpretes>
+        <sinopsis>El adolescente Marty McFly es amigo de Doc, un científico que ha construido una máquina del tiempo. Cuando los dos prueban el artefacto, un error fortuito hace que Marty llegue a 1955, año en el que sus padres iban al instituto y todavía no se habían conocido. Después de impedir su primer encuentro, Marty deberá conseguir que se conozcan y se enamoren, de lo contrario su existencia no sería posible.</sinopsis>
+        <web>https://www.backtothefuture.com</web>
+        <clasificacion>TP</clasificacion>
+        <fichero_grafico>
+          <a href="https://pics.filmaffinity.com/Regreso_al_futuro-139415628-large.jpg">Ver cartel</a>
+        </fichero_grafico>
+    </pelicula>
+    
+    
+    <pelicula>
+        <titulo>Sin novedad en el frente</titulo>
+        <titulo_original>All quiet on the western front</titulo_original>
+        <pais>Estados Unidos / Alemania</pais>
+        <año>2022</año>
+        <duracion>120 min</duracion>
+        <director>Edward Berger</director>
+        <interpretes>
+             <interprete>Daniel Brühl</interprete>
+            <interprete>Felix Kammerer</interprete>
+            <interprete>Devid Striesow</interprete>
+            <interprete>Aaron Hilmer</interprete>
+        </interpretes>
+        <sinopsis>La apasionante historia de un joven soldado alemán en el frente occidental durante la Primera Guerra Mundial. Paul y sus compañeros experimentan en sus carnes cómo la euforia inicial de la guerra se convierte en desesperación y miedo mientras luchan por sus vidas y las de los otros en las trincheras.</sinopsis>
+        <web>https://www.netflix.com/es/title/81260280</web>
+        <clasificacion>+16</clasificacion>
+        <fichero_grafico>
+          <a href="https://pics.filmaffinity.com/Sin_novedad_en_el_frente-474477682-large.jpg">Ver cartel</a>
+        </fichero_grafico>
+    </pelicula>
+    
+    
+    <pelicula>
+        <titulo>Cars</titulo>
+        <titulo_original>Cars</titulo_original>
+        <pais>Estados Unidos</pais>
+        <año>2006</año>
+        <duracion>117 min</duracion>
+        <director>John Lasseter</director>
+        <interpretes>
+            <interprete>Owen Wilson</interprete>
+            <interprete>Paul Newman</interprete>
+            <interprete>Bonnie Hunt</interprete>
+            <interprete>Larry the Cable Guy</interprete>
+        </interpretes>
+        <sinopsis>El aspirante a campeón de carreras Rayo McQueen parece que está a punto de conseguir el éxito, la fama y todo lo que había soñado, hasta que por error toma un desvío inesperado en la polvorienta y solitaria Ruta 66. Su actitud arrogante se desvanece cuando llega a una pequeña comunidad olvidada que le enseña las cosas importantes de la vida que había olvidado.</sinopsis>
+        <web>https://www.pixar.com/feature-films/cars</web>
+        <clasificacion>TP</clasificacion>
+        <fichero_grafico>
+          <a href="https://pics.filmaffinity.com/Cars-746710621-mmed.jpg">Ver cartel</a>
+        </fichero_grafico>
+    </pelicula>
+    
+    
+    <pelicula>
+        <titulo>Star Wars: El Ataque de los Clones</titulo>
+        <titulo_original>Star Wars: Episode II - Attack of the Clones</titulo_original>
+        <pais>Estados Unidos</pais>
+        <año>2002</año>
+        <duracion>142 min</duracion>
+        <director>George Lucas</director>
+        <interpretes>
+            <interprete>Ewan McGregor</interprete>
+            <interprete>Natalie Portman</interprete>
+            <interprete>Hayden Christensen</interprete>
+            <interprete>Christopher Lee</interprete>
+        </interpretes>
+        <sinopsis>En el Senado Galáctico reina la inquietud. Varios miles de sistemas solares han declarado su intención de abandonar la República. Este movimiento separatista, liderado por el misterioso conde Dooku, ha provocado que al limitado número de caballeros Jedi les resulte difícil mantener la paz y el orden en la galaxia. La senadora Amidala, antigua Reina de Naboo, regresa al Senado Galáctico para dar su voto en la crítica cuestión de crear un ejército de la República que ayude a los desbordados Jedi.</sinopsis>
+        <web>https://www.starwars.com</web>
+        <clasificacion>TP</clasificacion>
+        <fichero_grafico>
+          <a href="https://static.wikia.nocookie.net/esstarwars/images/7/7c/Episode_two_poster.jpg/revision/latest?cb=20060405025053">Ver cartel</a>
+        </fichero_grafico>
+    </pelicula>
+</cartelera>

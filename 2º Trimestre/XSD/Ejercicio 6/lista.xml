@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<listaclientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="lista.xsd">
+  <cliente>
+    <cif>1234567F</cif>
+    <nombre>Pepe</nombre>
+    <diasentrega>23</diasentrega>
+  </cliente>
+  <cliente>
+     <cif>2312122K</cif>
+    <nombre>Alberto</nombre>
+  </cliente>
+</listaclientes>

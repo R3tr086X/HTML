@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aeropuerto [
+    <!ELEMENT aeropuerto (nombre, fecha, panel_vuelos_salida, panel_vuelos_llegada)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT fecha (#PCDATA)>
+    
+    <!ELEMENT panel_vuelos_salida (vuelo+)>
+    <!ELEMENT panel_vuelos_llegada (vuelo+)>
+    
+    <!ELEMENT vuelo (diario?, origen, destino, hora_salida, hora_llegada)>
+    <!ATTLIST vuelo
+        codigo CDATA #REQUIRED
+        estado (C | E | R) "E">
+    
+    <!ELEMENT diario EMPTY>
+    <!ATTLIST diario
+        valor (SI | NO) #REQUIRED>
+    <!ELEMENT origen (#PCDATA)>
+    <!ELEMENT destino (#PCDATA)>
+    <!ELEMENT hora_salida (#PCDATA)>
+    <!ELEMENT hora_llegada (#PCDATA)>
+]>
+
+<aeropuerto>
+    <nombre>AEROPUERTO COLÓN</nombre>
+    <fecha>20/12/2023</fecha>
+    
+    <panel_vuelos_salida>
+        <vuelo codigo="V22" estado="C">
+           <diario valor="SI"/>
+            <origen>Huelva</origen>
+            <destino>Chicago</destino>
+            <hora_salida>9:30</hora_salida>
+            <hora_llegada>21:30</hora_llegada>
+        </vuelo>
+        <vuelo codigo="V23" estado="C">
+            <diario valor="NO"/>
+            <origen>Huelva</origen>
+            <destino>Miami</destino>
+            <hora_salida>10:15</hora_salida>
+            <hora_llegada>21:15</hora_llegada>
+        </vuelo>
+    </panel_vuelos_salida>
+    
+    <panel_vuelos_llegada>
+        <vuelo codigo="V57" estado="E">
+           <diario valor="SI"/>
+            <origen>Florencia</origen>
+            <destino>Huelva</destino>
+            <hora_salida>9:50</hora_salida>
+            <hora_llegada>11:45</hora_llegada>
+        </vuelo>
+        <vuelo codigo="V58" estado="C">
+            <diario valor="NO"/>
+            <origen>New York</origen>
+            <destino>Huelva</destino>
+            <hora_salida>10:35</hora_salida>
+            <hora_llegada>7:15</hora_llegada>
+        </vuelo>
+    </panel_vuelos_llegada>
+</aeropuerto>

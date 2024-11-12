@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" modified="2024-01-15T08:44:09.325Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="4BR7pLo5VNs2BcIGDi3U" version="22.1.18" type="google">
+  <diagram name="Página-1" id="iEI0HLkmjcwRm0wK67Qz">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tMkIm5WldkkjkBr3AtxW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tMkIm5WldkkjkBr3AtxW-1" target="tMkIm5WldkkjkBr3AtxW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tMkIm5WldkkjkBr3AtxW-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tMkIm5WldkkjkBr3AtxW-1" target="tMkIm5WldkkjkBr3AtxW-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tMkIm5WldkkjkBr3AtxW-1" value="Carta" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tMkIm5WldkkjkBr3AtxW-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tMkIm5WldkkjkBr3AtxW-2" target="tMkIm5WldkkjkBr3AtxW-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tMkIm5WldkkjkBr3AtxW-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tMkIm5WldkkjkBr3AtxW-2" target="tMkIm5WldkkjkBr3AtxW-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tMkIm5WldkkjkBr3AtxW-2" value="Nombre" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tMkIm5WldkkjkBr3AtxW-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tMkIm5WldkkjkBr3AtxW-3" target="tMkIm5WldkkjkBr3AtxW-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tMkIm5WldkkjkBr3AtxW-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tMkIm5WldkkjkBr3AtxW-3" target="tMkIm5WldkkjkBr3AtxW-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tMkIm5WldkkjkBr3AtxW-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tMkIm5WldkkjkBr3AtxW-3" target="tMkIm5WldkkjkBr3AtxW-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tMkIm5WldkkjkBr3AtxW-3" value="Descripcion" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tMkIm5WldkkjkBr3AtxW-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tMkIm5WldkkjkBr3AtxW-4" target="tMkIm5WldkkjkBr3AtxW-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tMkIm5WldkkjkBr3AtxW-4" value="Precio (en euros)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tMkIm5WldkkjkBr3AtxW-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tMkIm5WldkkjkBr3AtxW-5" target="tMkIm5WldkkjkBr3AtxW-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tMkIm5WldkkjkBr3AtxW-5" value="Calorías" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tMkIm5WldkkjkBr3AtxW-10" value="-Gofres Belgas&lt;br&gt;&lt;br&gt;-Gofres Belgas con fresa&lt;br&gt;&lt;br&gt;-Gofres Belgas con frutas del bosque&lt;br&gt;&lt;br&gt;-Tostada Francesa&lt;br&gt;&lt;br&gt;-Desayuno de la casa" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="270" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="tMkIm5WldkkjkBr3AtxW-12" value="- 5.95&lt;br&gt;&lt;br&gt;- 7.95&lt;br&gt;&lt;br&gt;- 8.95&lt;br&gt;&lt;br&gt;- 4.50&lt;br&gt;&lt;br&gt;- 6.95" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="270" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="tMkIm5WldkkjkBr3AtxW-15" value="- 650&lt;br&gt;&lt;br&gt;- 900&lt;br&gt;&lt;br&gt;- 900&lt;br&gt;&lt;br&gt;- 600&lt;br&gt;&lt;br&gt;- 950" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="270" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="tMkIm5WldkkjkBr3AtxW-16" value="-Dos de nuestros famosos Gofres belgas con abundante sirope&lt;br&gt;&lt;br&gt;-Ligeros gofres belgas cubiertos de fresas y nata montada&lt;br&gt;&lt;br&gt;-Ligeros gofres belgas cubiertos con frutas del bosque y nata montada&lt;br&gt;&lt;br&gt;-Dos gruesas rebanadas de nuestro pan francés casero&lt;br&gt;&lt;br&gt;-Dos huevos, bacon o salchicha, tostada y patatas fritas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="270" width="120" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="tMkIm5WldkkjkBr3AtxW-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tMkIm5WldkkjkBr3AtxW-19" target="tMkIm5WldkkjkBr3AtxW-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tMkIm5WldkkjkBr3AtxW-19" value="Alérgenos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tMkIm5WldkkjkBr3AtxW-21" value="-Lácteos, huevos&lt;br&gt;&lt;br&gt;-Soja, lácteos&lt;br&gt;&lt;br&gt;-Lácteos, soja, huevos&lt;br&gt;&lt;br&gt;-Huevos, cacahuetes&lt;br&gt;&lt;br&gt;-Apio, altramuces" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="270" width="120" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

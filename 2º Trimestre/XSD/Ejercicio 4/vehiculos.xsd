@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="tipoMatricula">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Z]{3}-\d{4}"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="tipoColor">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="verde"/>
+      <xs:enumeration value="rojo"/>
+      <xs:enumeration value="amarillo"/>
+      <xs:enumeration value="azul"/>
+      <xs:enumeration value="negro"/>
+      <xs:enumeration value="blanco"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="vehiculo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="marca" type="xs:string"/>
+        <xs:element name="modelo" type="xs:string"/>
+        <xs:element name="color" type="tipoColor"/>
+        <xs:element name="fechamatricula" type="xs:date"/>
+        <xs:element name="matricula" type="tipoMatricula"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="vehiculos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="vehiculo" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

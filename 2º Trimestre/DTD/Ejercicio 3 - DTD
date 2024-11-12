@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE lista[
+ <!ELEMENT lista (pedido*)>
+<!ELEMENT pedido (número_serie, producto, descripción, cliente, cantidad, peso?)>
+<!ELEMENT número_serie (#PCDATA)>
+<!ELEMENT producto (#PCDATA)>
+<!ELEMENT descripción (#PCDATA)>
+<!ELEMENT cliente (id_cliente, nombre, apellido)>
+<!ELEMENT id_cliente (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT peso (#PCDATA)>
+]>
+
+<lista>
+<pedido>
+  <número_serie></número_serie>
+  <producto></producto>
+  <descripción></descripción>
+  <cliente>
+   <id_cliente></id_cliente>
+    <nombre></nombre>
+    <apellido></apellido>
+  </cliente>
+  <cantidad></cantidad>
+  <peso></peso>
+</pedido>
+</lista>

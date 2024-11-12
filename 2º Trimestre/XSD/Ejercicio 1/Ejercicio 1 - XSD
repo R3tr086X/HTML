@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<fechas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="fecha.xsd">
+  <fecha>
+    <dia>5</dia>
+    <mes>4</mes>
+    <año>2021</año>
+  </fecha>
+</fechas>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE productos [
+ <!ELEMENT productos (producto*)>
+ <!ELEMENT producto (impresora | raton | teclado | monitor)>
+  
+<!ELEMENT impresora (codigo, nombre?, descripcion?)>
+<!ELEMENT raton (codigo, nombre?, descripcion?)>
+<!ELEMENT teclado (codigo, nombre?, descripcion?)>
+<!ELEMENT monitor (codigo, nombre?, descripcion?)>
+
+ <!ELEMENT codigo (#PCDATA)>
+ <!ELEMENT nombre (#PCDATA)>
+ <!ELEMENT descripcion (#PCDATA)>
+]>
+ <productos>
+    <producto>
+        <raton>
+            <codigo>27A</codigo>
+        </raton>
+    </producto>
+    
+    <producto>
+        <teclado>
+            <codigo>28D</codigo>
+            <descripcion>Teclado en Español</descripcion>
+        </teclado>
+    </producto>
+    
+    <producto>
+        <monitor>
+          <codigo>33A</codigo>
+          <nombre>LG</nombre>
+          <descripcion>Monitor de la marca LG, 144 Hz</descripcion>
+        </monitor>
+    </producto>
+    
+    <producto>
+        <impresora>
+          <codigo>86M</codigo>
+          <nombre>HP</nombre>
+        </impresora>
+    </producto>
+</productos>

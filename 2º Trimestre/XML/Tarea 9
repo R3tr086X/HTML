@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<datos>
+    <garaje:plaza>
+        <garaje:tipo>aparcamiento</garaje:tipo>
+        <garaje:ubicacion>Garaje Municipal</garaje:ubicacion>
+        <garaje:numero>23</garaje:numero>
+        <garaje:ocupada>Verdadero</garaje:ocupada>
+        <garaje:fecha_obtención>12-08-2022</garaje:fecha_obtención>
+        <garaje:plaza_discapacitado>Falso</garaje:plaza_discapacitado>
+    </garaje:plaza>
+    
+    <ayuntamiento:plaza>
+        <ayuntamiento:tipo>funcionario</ayuntamiento:tipo>
+        <ayuntamiento:ubicacion>Ayuntamiento de Huelva</ayuntamiento:ubicacion>
+        <ayuntamiento:departamento>Administración</ayuntamiento:departamento>
+        <ayuntamiento:ocupada>Verdadero</ayuntamiento:ocupada>
+        <ayuntamiento:fecha_obtención>23-01-2022</ayuntamiento:fecha_obtención>
+        <ayuntamiento:plaza_discapacitado>Verdadero</ayuntamiento:plaza_discapacitado>
+    </ayuntamiento:plaza>
+</datos>
