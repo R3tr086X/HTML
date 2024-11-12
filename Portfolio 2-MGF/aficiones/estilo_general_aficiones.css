@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../Imágenes/GE-fondo21.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+header {
+    background-color: #1DD183;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav {
+    float: left;
+    width: 20%;
+    background-color: #1DD183;
+    height: 100vh; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+article {
+    float: left;
+    width: 60%;
+    padding: 20px;
+}
+
+footer {
+    clear: both;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.volver {
+    background-color: #555;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.volver:hover {
+    background-color: #777;
+}
+@media print {
+    ul,
+    .right-align,
+    .marca {
+        display: none;
+    }
+}

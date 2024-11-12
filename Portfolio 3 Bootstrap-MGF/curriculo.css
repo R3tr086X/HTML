@@ -1,0 +1,118 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+header {
+    color: #3498db;
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    border: 2px dashed #3498db;
+    padding: 10px;
+}
+
+section {
+    text-align: left;
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    margin: 10px; 
+    padding: 20px;
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s forwards;
+}
+
+section:nth-child(even) {
+    clear: both;
+}
+
+footer {
+   
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.volver {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #3498db;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-right: 10px; 
+    transition: background-color 0.3s ease;
+}
+
+.volver:hover {
+    background-color: #45a049;
+}
+
+@media print {
+    ul,
+    .right-align,
+    .marca {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+    }
+
+    section {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+section:nth-child(3):hover {
+    background-color: #3498db;
+    color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
